@@ -1,0 +1,3 @@
+dataset,selected_lambda,selection_rule
+SGCC,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,0.1,highest mean validation MCC across ten prespecified seeds

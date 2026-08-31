@@ -1,0 +1,13 @@
+dataset,metric,lambda_el,paired_mean_difference,ci95_low,ci95_high,wilcoxon_two_sided_p,n_seeds,holm_p_within_dataset_metric,selected_lambda,selection_rule
+SGCC,mcc,0.1,0.001467977846304519,-0.0009019227310265027,0.0043706230252394136,0.2890625,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+SGCC,auroc,0.1,0.0014820060131659819,-5.042439381854835e-05,0.0036858264176128828,0.431640625,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+SGCC,f1,0.1,-0.0023990685755330976,-0.008402888446890685,0.001962896945435605,0.7109375,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+SGCC,balanced_accuracy,0.1,-0.003754887993159406,-0.010358062626506459,0.0005888877378100177,0.625,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+SGCC,average_precision,0.1,0.0007195690064124183,-5.353302885115624e-06,0.001788534965227262,0.4921875,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+SGCC,brier,0.1,-0.0017853558063506635,-0.004877327904105164,3.002319484953018e-05,0.845703125,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,mcc,0.1,0.00236530950961539,-0.02454301259153967,0.03056110263836407,0.75,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,auroc,0.1,0.0013041903151793433,-0.0005434126313246912,0.0043110735418427915,0.75,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,f1,0.1,-0.011056680897570647,-0.03640745720775852,0.0030273304814331325,1.0,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,balanced_accuracy,0.1,0.002197802197802212,-0.010989010989010973,0.01703296703296705,0.75,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,average_precision,0.1,0.0025743527235755127,-0.0005734144366542404,0.008075361479544652,0.875,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
+UCI,brier,0.1,-0.0018464013934135436,-0.004369755759835242,1.4843046665191627e-06,1.0,10,1.0,0.1,highest mean validation MCC across ten prespecified seeds
